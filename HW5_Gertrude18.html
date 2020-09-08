@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html>
+<!--Prettier helps make you-->
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <!--This  styles each class-->
+    <!--ids cannot begin with a number but can begin with a letter an contain numbers and ids take preferences in elements for html-->
+    <!--External CSS below-->
+    <!--style>
+        div.example-class{
+            background-color: aquamarine;
+        }
+
+        #Table-of-contents{
+            background-color: rgb(12, 82, 82);
+        }
+
+        #Topics{
+            background-color: burlywood;
+        }
+
+        #Test-run{
+            background-color: coral;
+        }
+    </style-->
+    <title>
+        Test Run
+    </title>
+</head>
+
+<div class= "example-class"><!--This defines a class-->
+<header>
+    <a href = "/home1.html">Visit our home page</a>
+    <a href = "tel:+233500263025">Call us here</a>
+</header>
+</div>
+
+<body>
+
+    <!--In-line CSS takes preeminence over the Internal CSS-->
+<div style = "background-color:rgb(85, 53, 11);" class= "example-class" id = "Table-of-contents">
+<!--In-line CSS above takes preference over the class and id-->
+    <h1> TABLE OF CONTENTS </h1>
+    <ol type ="i">
+    <li><a href="#Topic1">HEADINGS</a><br></li>
+    <li><a href="#Topic2">Paragraphs</a><br></li>
+    <li><a href="#Topic3">Descriptions</a><br></li>
+    <li><a href ="#Topic4">Abbreviations</a><br></li>
+    </ol>
+</div>
+
+<div class= "example-class" id = "Topics">
+<h2>Topics so far</h2>
+    <ul>
+        <li>HTML styles</li>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Images</li>
+    </ul>
+</div>
+
+    <h1 id = "Topic1">HEADINGS</h1>
+
+<div class= "example-class" id = "Test-run">
+<h2>Test runs</h2>
+    <h1>This is a test run</h1>
+    <h2>This is a test run</h2>
+    <h3>This is a test run</h3>
+    <h4>This is a test run</h4>
+    <h5>This is a test run</h5>
+    <h6>This is a test run</h6>
+</div>   
+   
+    <p>test paragraph
+        <!--Below is an anchor tag-->
+        <a href = "https://www.w3schools.com" rel="external"> Link</a></p>
+    <img 
+        src = "Screenshot_20200715-033653_1595409472633.jpg" alt="DansynISO" width="1000" height = "500">
+<!--src indicates the source, alt indicates the image's description-->
+    <
+    <p>My name is <strong>
+        Gertrude
+        <ins>
+            <s>Asumpaame</s>
+        </ins> Alayine</strong>
+        <mark>Loremp inpsum</mark></p>
+    <p>My name is <abbr title = "Alayine Gertrude Asumpaame">AGA</abbr></p>
+    <div id = "Tables">
+    <table>
+        <tr>
+            <th>Heading/column1</th>
+            <th>Heading/column2</th>
+        </tr>
+        <tr>
+            <td>Row 1/Data column 1</td>
+            <td>Row 1/Data column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2/ Data column 1</td>
+            <td>Row 2/ Data column 2</td>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <div>
+    <table>       
+        <tr>
+            <td>r1/c1</td>
+        </tr>
+    </table>
+</div>
+
+    <!--Classes are and ids are unique identifiers for specific elements-->
+</body>
+
+    </html>
